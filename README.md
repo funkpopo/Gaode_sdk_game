@@ -13,7 +13,7 @@ Android版本：`Android 11.0 (R)`
 
 SDK版本：`AMap3DMap_7.9.1_AMapNavi_7.9.1_AMapSearch_7.9.0_AMapLocation_5.3.1_20210414.jar (libs)`
 
-(暂未使用Flutter)
+(暂未使用Flutter，暂未使用Kotlin)
 ****
 已完成：
 > 动态权限申请
