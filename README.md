@@ -1,5 +1,5 @@
 # Gaode_sdk_game
-使用高德开放平台的SDK进行移动游戏应用开发的学习项目。缓慢更新
+使用高德开放平台的SDK进行移动游戏应用开发的学习项目。（初学项目，缓慢更新）
 
 Use Gaode Open Platform resource to build an android game.（使用高德开放平台资源创建的安卓游戏开发项目）
 
