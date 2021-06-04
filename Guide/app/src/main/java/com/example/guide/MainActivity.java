@@ -59,11 +59,11 @@ public class MainActivity extends AppCompatActivity implements LocationSource, A
         //设置定位模式为Hight_Accuracy高精度模式，Battery_Saving为低功耗模式，Device_Sensors是仅设备模式
         mLocationOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
         //设置是否返回地址信息（默认返回地址信息）
-        mLocationOption.setNeedAddress(true);
+        mLocationOption.setNeedAddress(false);
         //设置是否只定位一次,默认为false
         mLocationOption.setOnceLocation(false);
         //设置是否强制刷新WIFI，默认为强制刷新
-        mLocationOption.setWifiActiveScan(true);
+        mLocationOption.setWifiActiveScan(false);
         //设置是否允许模拟位置,默认为false，不允许模拟位置
         mLocationOption.setMockEnable(false);
         //设置定位间隔,单位毫秒,默认为2000ms
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements LocationSource, A
         if (aMapLocation != null) {
             if (aMapLocation.getErrorCode() == 0) {
                 //定位成功回调信息，设置相关消息
-                aMapLocation.getLocationType();//获取当前定位结果来源，如网络定位结果，详见官方定位类型表
+                aMapLocation.getLocationType();//获取当前定位结果来源，如网络定位结果
                 aMapLocation.getLatitude();//获取纬度
                 aMapLocation.getLongitude();//获取经度
                 aMapLocation.getAccuracy();//获取精度信息
