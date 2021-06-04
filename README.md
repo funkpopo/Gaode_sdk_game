@@ -18,6 +18,6 @@ Use Gaode Open Platform resource to build an android game.（使用高德开放�
 已完成：
 > 动态权限申请
 > 
-> 实时定位
+> 实时定位（定义自动重复刷新）
 > 
 > 自定义地图类型（默认为白底彩色，可通过更改相关资源文件进行替换）
